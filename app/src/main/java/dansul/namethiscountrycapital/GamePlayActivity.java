@@ -42,8 +42,6 @@ public class GamePlayActivity extends Activity implements GamePlayFragment.OnGam
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
@@ -70,7 +68,6 @@ public class GamePlayActivity extends Activity implements GamePlayFragment.OnGam
                     public void onClick(DialogInterface dialog, int which) {
                         // Make sure we save the game score first
                         onGameOver(GamePlayFragment.SCORE);
-
                         finish();
                     }
                 })

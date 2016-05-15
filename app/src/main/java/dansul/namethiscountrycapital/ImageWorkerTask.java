@@ -54,8 +54,6 @@ public class ImageWorkerTask extends AsyncTask<String, Void, Bitmap> {
 
             if (imageView != null) {
                 imageView.setImageBitmap(bitmap);
-
-                // Now we can update the rest of the UI elements
                 imageLoadedListener.updateUI();
             }
         }
@@ -81,7 +79,6 @@ public class ImageWorkerTask extends AsyncTask<String, Void, Bitmap> {
             final int halfHeight = height / 2;
 
             while ((halfWidth / inSampleSize) > displayWidth || (halfHeight / inSampleSize) > displayHeight) {
-//                Scale it again
                 inSampleSize *= 2;
             }
         }

@@ -49,9 +49,7 @@ public class GamePlayFragment extends Fragment implements View.OnClickListener, 
 
     private CountryCapital currentCountry;
 
-    // Make this static so we can access it from our activity
     protected static int SCORE;
-
     private int incorrectAnswersFlag;
     private static List<CountryCapital> remCountries, allCountries;
 
@@ -61,7 +59,7 @@ public class GamePlayFragment extends Fragment implements View.OnClickListener, 
 
     CapitalsDbHelper dbHelper;
 
-    // Required empty public constructor
+
     public GamePlayFragment() {
         SCORE = incorrectAnswersFlag = 0;
         btnClicked = btnCorrectChoice = null;
@@ -119,7 +117,6 @@ public class GamePlayFragment extends Fragment implements View.OnClickListener, 
         btnSecondChoice.setOnClickListener(this);
         btnThirdChoice.setOnClickListener(this);
 
-        // Set custom typeface
         Typeface robotoCondensed = Typeface.createFromAsset(getActivity().getAssets(), "fonts/RCR.ttf");
         btnFirstChoice.setTypeface(robotoCondensed);
         btnSecondChoice.setTypeface(robotoCondensed);
@@ -199,12 +196,6 @@ public class GamePlayFragment extends Fragment implements View.OnClickListener, 
                 }
             }
         });
-
-//        // Load image here but only if the game is not over
-//        if (!isGameOver) {
-//            currentCountry = getRandomCountry();
-//            loadImage(currentCountry.getCountry());
-//        }
     }
 
     @Override
@@ -251,7 +242,6 @@ public class GamePlayFragment extends Fragment implements View.OnClickListener, 
     }
 
     private CountryCapital getRandomCountry() {
-        // If we're here then we have to decrement the counter
         if (counterToPlay > 0) counterToPlay--;
 
         int currentCountryImageIndex = new Random().nextInt(remCountries.size());
@@ -301,9 +291,6 @@ public class GamePlayFragment extends Fragment implements View.OnClickListener, 
         }
 
         toggleButtonStates(false);
-
-//        firstHandler = new Handler();
-//        secondHandler = new Handler();
 
         firstHandler.postDelayed(firstDelay, 500);
         secondHandler.postDelayed(secondDelay, 1500);

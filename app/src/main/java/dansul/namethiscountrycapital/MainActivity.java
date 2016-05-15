@@ -41,43 +41,16 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         // Initialize preference settings
         PreferenceManager.setDefaultValues(this, R.xml.preferences, false);
-
-        // Load App rate
-//        new AppRate(this)
-//                .setShowIfAppHasCrashed(false)
-//                .setMinDaysUntilPrompt(0)
-//                .setMinLaunchesUntilPrompt(4)
-//                .init();
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-//        switch (item.getItemId()) {
-//
-//            case R.id.action_settings:
-//                Intent intent = new Intent(getApplicationContext(), SettingsActivity.class);
-//                startActivity(intent);
-//
-//                break;
-//        }
-
-//        int id = item.getItemId();
-//
-//        if (id == R.id.action_settings) {
-//            Intent intent = new Intent(getApplicationContext(), SettingsActivity.class);
-//            startActivity(intent);
-//        }
         return super.onOptionsItemSelected(item);
     }
 
@@ -86,7 +59,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         super.onActivityResult(request, response, data);
 
         if (response == RESULT_OK && request == START_GAME_REQUEST) {
-            // Save the SCORE
             score = data.getIntExtra(SCORE, 0);
 
             if (score != 0) {
@@ -131,7 +103,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 intent.setData(site);
 
                 if (intent.resolveActivity(getPackageManager()) != null) {
-                    // Intent can be resolved, start activity
                     startActivity(intent);
                 }
 

@@ -1,8 +1,6 @@
 package dansul.namethiscountrycapital.data;
 
-/**
- * Model class
- */
+
 public class CountryCapital {
 
     private String country, capital;
