@@ -1,0 +1,27 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+
+    <dimen name="header_tv">32dp</dimen>
+    <dimen name="header_height">66dp</dimen>
+
+    <dimen name="header_iv_margintop">100dp</dimen>
+    <dimen name="header_iv_marginbottom">36dp</dimen>
+    <dimen name="header_iv_padding">16dp</dimen>
+
+    <dimen name="btn_tv">26dp</dimen>
+    <dimen name="btn_margintop">40dp</dimen>
+    <dimen name="btn_marginbottom">26dp</dimen>
+    <dimen name="btn_paddingtopbottom">32dp</dimen>
+    <dimen name="btn_paddingleftright">210dp</dimen>
+
+    <!-- Gameplay -->
+    <dimen name="tv_gameplay_score">32dp</dimen>
+    <dimen name="btn_gameplay">34dp</dimen>
+    <dimen name="btn_gameplay_margintop">8dp</dimen>
+
+    <dimen name="btn_play_paddingtopbottom">20dp</dimen>
+
+</resources>

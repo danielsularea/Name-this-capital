@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Dimensions -->
+    <dimen name="header_tv">22dp</dimen>
+    <dimen name="header_height">36dp</dimen>
+
+    <dimen name="header_iv_margintop">18dp</dimen>
+    <dimen name="header_iv_marginbottom">18dp</dimen>
+    <dimen name="header_iv_padding">5dp</dimen>
+
+    <dimen name="btn_tv">15dp</dimen>
+    <dimen name="btn_margintop">20dp</dimen>
+    <dimen name="btn_marginbottom">6dp</dimen>
+    <dimen name="btn_paddingtopbottom">12dp</dimen>
+    <dimen name="btn_paddingleftright">70dp</dimen>
+
+    <!-- Gameplay -->
+    <dimen name="tv_gameplay_score">18dp</dimen>
+    <dimen name="btn_gameplay">20dp</dimen>
+    <dimen name="btn_gameplay_margintop">1dp</dimen>
+
+</resources>

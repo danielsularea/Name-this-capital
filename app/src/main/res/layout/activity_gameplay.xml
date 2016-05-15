@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f9f9"
+    tools:context="dansul.namethiscountrycapital.GamePlayActivity">
+
+    <fragment
+        android:id="@+id/fragment_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="dansul.namethiscountrycapital.GamePlayFragment"
+        tools:layout="@layout/fragment_gameplay"/>
+
+</RelativeLayout>

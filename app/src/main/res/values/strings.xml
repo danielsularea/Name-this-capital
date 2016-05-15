@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Name this capital</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="general_settings">General Settings</string>
+    <string name="hide_country_title">Hides the country name from the top bar</string>
+    <string name="hard_mode">Hard mode</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="quit_confirm">Are you sure you want to quit?</string>
+    <string name="end_game">End game</string>
+    <string name="feature_missing">Feature not yet implemented.</string>
+    <string name="rate">RATE</string>
+    <string name="more_apps">MORE APPS</string>
+    <string name="high_scores">HIGH SCORES</string>
+    <string name="settings">SETTINGS</string>
+    <string name="play">PLAY</string>
+
+</resources>

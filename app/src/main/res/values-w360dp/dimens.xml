@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="header_tv">25dp</dimen>
+    <dimen name="header_height">40dp</dimen>
+
+    <dimen name="header_iv_margintop">30dp</dimen>
+    <dimen name="header_iv_marginbottom">20dp</dimen>
+    <dimen name="header_iv_padding">6dp</dimen>
+
+    <dimen name="btn_tv">16dp</dimen>
+    <dimen name="btn_margintop">22dp</dimen>
+    <dimen name="btn_marginbottom">10dp</dimen>
+    <dimen name="btn_paddingtopbottom">16dp</dimen>
+    <dimen name="btn_paddingleftright">80dp</dimen>
+
+    <!-- Gameplay -->
+    <dimen name="tv_gameplay_score">20dp</dimen>
+    <dimen name="btn_gameplay">20dp</dimen>
+    <dimen name="btn_gameplay_margintop">3dp</dimen>
+
+    <dimen name="btn_play_paddingtopbottom">1dp</dimen>
+
+</resources>
